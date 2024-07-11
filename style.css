@@ -14,8 +14,13 @@
 }
 
 body {
-  background: -webkit-linear-gradient(300deg, #f8a1aa, #d49075, #a38451, #f1ca82, #cdab8f);
-  background: linear-gradient(300deg, #f8a1aa, #d49075, #a38451, #f1ca82, #cdab8f);
+  /* background: -webkit-linear-gradient(300deg, #f8a1aa, #d49075, #a38451, #f1ca82, #cdab8f);
+  background: linear-gradient(300deg, #f8a1aa, #d49075, #a38451, #f1ca82, #cdab8f); */
+  background-image: url('/assets/background.jpg');
+  background-size: cover;
+  background-position: right;
+  background-attachment: fixed;
+  background-size: 200%;
   height: 100vh;
 }
 
