@@ -83,3 +83,19 @@ ul li a:hover {
   background: var(--surface-color-hover);
   border: 1.5px solid var(--text-color);
 }
+
+/* Animação de inflar/esvaziar */
+.inflate {
+  animation: inflate-animation 1.5s ease-in-out infinite;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+@keyframes inflate-animation {
+  0%, 100% {
+    transform: scale(0.98);
+  }
+  50% {
+    transform: scale(1.05); 
+  }
+}
